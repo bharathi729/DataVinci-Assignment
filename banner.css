@@ -1,0 +1,268 @@
+.header{
+    background-color: rgb(248, 223, 227);
+    height: 3rem;
+    padding:1px;
+    /* padding-left: 3px; */
+    text-align: left;
+}
+.head-text{
+    margin-top: 9px;
+}
+.route{
+    flex:2;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: -40px;
+}
+.list-item{
+    margin-right: 5px;
+    
+}
+mark.blue {
+    color:#0d0dd8;
+    background: none;
+    
+}
+.banner {
+    background-color: #f77e1c;
+    color: black;
+    text-align: center;
+    padding: 0px 15px 0px 50px;
+    margin-top:2rem;
+    flex: 3;
+    border-radius: 1.5rem;
+  }
+.item{
+    display: flex;
+    
+}
+
+  .right,.right1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 75%;
+    border-radius: 5px;
+    background-color: rgb(195, 236, 195);
+    border: 1px rgb(24, 236, 24);
+    
+  }
+   
+  .right ,.right1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .bottom{
+    display: flex;
+    flex-direction: row;
+  }
+  .right{
+    margin-top: -80px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left:40px;
+  }
+  .right1{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left:40px;
+    
+  }
+  .right1-para1{
+    text-align:center;
+    line-height:5px ;
+    font-size: 18px;
+
+  }
+  .right1-para2{
+    line-height: 0px;
+    font-size: 18px;
+  }
+  .right-side{
+    display: flex;
+    flex-direction: column;
+  }
+  .offer-center{
+    padding-left: 400px;
+  }
+  #countdown{
+    padding-left: -30px;
+    font-weight: bold;
+  }
+  .offer-right{
+    padding-left:300px;
+  }
+  .col1{
+    padding-left: 30px;
+  }
+  .col2{
+    padding-left: 68px;
+  }
+  .col3{
+    padding-left: 180px;
+  }
+  .col1-row{
+    padding-left: 30px;
+  }
+  .col2-row{
+    padding-left: 105px;
+  }
+  .col3-row{
+    padding-left: 250px;
+    padding-bottom: 100px;
+  }
+  .col4-row{
+    padding-left: 150px;
+    padding-bottom: 100px;
+  }
+  .btn1{
+    height: 35px;
+    width: 175px;
+  }
+  .btn2{
+    color: orangered;
+    height: 25px;
+    width: 110px;
+  }
+  .btn3{
+    height: 35px;
+    width: 125px;
+  }
+
+  @media only screen and (max-width: 700px) {
+
+    .header{
+      height: 2rem;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  
+    .head-text{
+      margin-top: 5px;
+      font-size: 1.5rem;
+    }
+  
+    .route{
+      flex: 1;
+      font-size: 0.8rem;
+    }
+  
+    .list{
+      margin-left: -40px;
+      font-size: 0.8rem;
+    }
+  
+    .list-item{
+      margin-right: 3px;
+    }
+  
+    .banner {
+      /* padding: 0px 0px 0px 0px;*/
+      margin-top:0.5rem; 
+      flex: 4;
+      border-radius: 1rem;
+      font-size: 1.2rem;
+      height:10rem;
+      padding-bottom: 0px;
+    }
+    .item{
+      align-items: center;
+      height: 150px;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+      
+      
+    }
+    .flex-child:first-child {
+      margin-right: 1rem;
+    }
+    .offer-center{
+      padding-left: 0px;
+      line-height: 0px;
+      display: inline-block;
+    }
+    #countdown{
+      padding-left: -50px;
+      padding-top: 0px;
+      line-height: 0px;
+      display: inline-block;
+    }
+    .offer-right{
+      padding-left:0px;
+      padding-top: 0px;
+      line-height: 0px;
+    }
+    .offer{
+      line-height: 0px;
+      /* padding-bottom: 12px;
+      border-bottom-style: solid;
+      border-bottom-width: 1.8px;
+      width: fit-content; */
+      /* text-decoration: grey underline; */
+    }
+    .col1{
+      padding-left: 0px;
+      font-size: 12px;
+    }
+    .col2{
+      padding-left:0px;
+      font-size: 12px;
+    }
+    .col3{
+      padding-left:0px;
+      font-size: 12px;
+    }
+    
+    .col1-row{
+      padding-left: 0px;
+      font-size: 12px;
+    }
+    .col2-row{
+      padding-left: 20px;
+      font-size: 12px;
+    }
+    .col3-row{
+      padding-left: 30px;
+      padding-bottom: 100px;
+      font-size: 12px;
+    }
+    .col4-row{
+      padding-left: 40px;
+      padding-bottom: 100px;
+    }
+    .btn1{
+      height: 20px;
+      width: 90px;
+      font-size:xx-small
+    }
+    .btn2{
+      color: orangered;
+      height: 18px;
+      width: 90px;
+      font-size: xx-small;
+    }
+    .btn3{
+      height: 20px;
+      width: 70px;
+      font-size: x-small;
+    }
+    .bottom{
+      display: flex;
+      flex-direction: column;
+    }
+    .right-side{
+      margin-top: 100px;
+    }
+
+
+
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
